@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 1280px;
+    height: 2272px;
+    border: 1px solid red;
+    justify-content: center;
+}
+
+
+.header1{
+    width: 1277px;
+    height: 30px;
+    display: flex;  
+    background-color: #241960;
+}
+.header1 ul {
+    
+
+    width: 584px;
+    height: 15px;
+    font-size: 12px;
+    list-style: none;
+    display: flex;
+    margin-left: 85px;
+    margin-top: 7px;
+    color: #fff;
+}
+
+
+#parcelas {
+
+    width: 215px;
+    height: 15px;
+
+    
+}
+#descontos{
+    width: 142px;
+    height: 15px;
+ 
+}
+#garantias{
+    width: 110px;
+    height:15px ;
+}
+.icon {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 165px;
+    gap:8px;
+    margin-top: -25px;
+    color: white; 
+      
+  }
+
+
+  .header2{
+    width: 1280px;
+    height: 75px;
+    margin-top: 9px;
+
+  }
+  .nome  img{
+    width: 89.8px;
+    height: 16.74px;
+    margin-left: 85px;
+    margin-top: 35px;
+  }
+ 
+  
+  .search input{
+
+    width: 519px;
+    height: 39px;
+    border-radius: 8px;
+    font-size: 18px;
+    display: flex;
+    margin-left: 381px;
+    margin-top: -30px;
+    
+   
+
+    }
+
+.lopa img{
+
+    width: 27px;
+    height: 27px;
+    display: flex;
+    margin-left: 867px;
+    margin-top: -33px;
+    
+    
+}
+
+.usuario {
+  
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 145px;
+    gap:18px;
+
+    margin-top: -50px;
+    
+}
+.usuario  span img {
+    width: 17.7px;
+    height: 21.57px;
+}
+.usuario img{
+    width: 24.81px;
+    height: 21.57px;
+}
+.usuario p{
+    font-size: 12px;
+    opacity: 0.5;
+    display: flex;
+   margin-left: -10px;  
+}
+
+.header3{
+    width: 1277px;
+    height: 43px;
+    background: #52BBB7;
+    margin-top: 20px;
+}
+
+.links ul{
+    display: flex;
+    gap: 98px;
+    margin: 87px;
+    font-size: 14px;
+    list-style: none;
+    margin-top: -30px;
+    color: white;
+
+}
+
+
+.slider img{
+    display: flex;
+    width: 1277px;
+    margin-top: -73px;
+}
+.vendas-text{
+    font-size: 24px;
+    margin-left: 80px;
+}
+
+
+  .phone{
+    display: flex;
+    margin-left: 85px;
+    gap: 30px;
+    margin-top: 100px;
+  }
+  figcaption span{
+    display: flex;
+    margin-top: 9px;
+    font-weight: bold;
+    
+  }
+  figure h2{
+    
+    margin-top: -35px;
+    font-size: 28px;
+    font-weight: bold;
+
+  }
+  figcaption p{
+    display: flex;
+    margin-top: 9px;
+  }
