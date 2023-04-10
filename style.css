@@ -8,7 +8,7 @@
 body {
     width: 1280px;
     height: 2272px;
-    border: 1px solid red;
+    border: 1px solid #f2f2f2;
     justify-content: center;
 
 }
@@ -196,18 +196,7 @@ body {
     display: flex;
     justify-content: center;
 }
-/*
-.manual-btn {
-    width: 30px;
-    border: 1px solid rgb(167, 166, 166);
-    padding: 5px;
-    
-    border-radius:  3px;
-    cursor: pointer;
-    transition: 1s;
 
-}
-*/
 
 .manual-btn:not(:last-child) {
     margin-right: 3px;
@@ -344,4 +333,30 @@ figure h2 {
 figcaption p {
     display: flex;
     margin-top: 9px;
+}
+
+
+.card img{
+
+    width: 606px;
+    height: 500px;
+    margin: 85px;
+    
+}
+
+
+.linha{
+    border-top: 900px;
+    margin: 90px;
+    width: 1070px;
+    border-top: 0.4px solid rgb(214, 214, 214);
+}
+
+.autorais p{
+    margin-top: -85px;
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.5;
 }
